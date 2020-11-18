@@ -1,0 +1,30 @@
+@import '../../../assets/sass/sass-assets.scss';
+
+.LogoCopyrightContainer {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 175px;
+    width: 175px;
+
+    @include break(xs) {
+        margin-top: 0px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .Copyright {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: -170px;
+
+        @include break(xs) {
+            right: 0px;
+            left: 0px;
+            top: 50px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../../../assets/sass/sass-assets.scss';
+
+.Copyright {
+    width: 130px;
+    height: 20px;
+    font-size: 12px;
+
+    @include break(xs) {
+        left: inherit;
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
