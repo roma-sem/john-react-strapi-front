@@ -9,7 +9,7 @@ import NavButton from './NavButton/NavButton';
 
 export default function Nav() {
     // const fetchRes = useFetch('/john/wp-json/wp-api-menus/v2/menus/2', "items");
-    const fetchRes = useFetch('http://localhost:1337/nav-items');
+    const fetchRes = useFetch('http://localhost:1337/pages');
 
     let [fetched, setFetched] = useState(false);
     const ref = useRef(null);

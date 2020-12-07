@@ -16,9 +16,9 @@ export default function MobileNav(props) {
                     <li key={index} onClick={props.clicked}>
                         <NavLink
                             exact
-                            to={index === 0 ? "/" : `/${item.nav_title.toLowerCase()}`}
+                            to={index === 0 ? "/" : `/${item.single_page.toLowerCase()}`}
                             activeClassName="active-mob-nav-link">
-                                {item.nav_title.toLowerCase()}
+                                {item.single_page.toLowerCase()}
                         </NavLink>
                     </li>)
                 }

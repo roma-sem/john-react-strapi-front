@@ -22,9 +22,9 @@ export default function DesktopNav(props) {
                     <li key={index}>
                         <NavLink
                             exact
-                            to={index === 0 ? "/" : `/${item.nav_title.toLowerCase()}`}
+                            to={index === 0 ? "/" : `/${item.single_page.toLowerCase()}`}
                             activeClassName="active-desktop-link" >
-                                {item.nav_title.toLowerCase()}
+                                {item.single_page.toLowerCase()}
                         </NavLink>
                     </li>)
                 }

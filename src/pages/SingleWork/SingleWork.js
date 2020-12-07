@@ -56,7 +56,7 @@ export default function SingleWork() {
                     <Suspense fallback={<h1 style={{fontSize: "30px"}}>L O A D I N G ...</h1>}>
                         <div
                             className="image-container"
-                            dangerouslySetInnerHTML={{__html: ref.current.data.post_contentf}}></div>
+                            dangerouslySetInnerHTML={{__html: ref.current.data.post_content}}></div>
                     </Suspense>
                 </section>
                 : null
